@@ -18,14 +18,13 @@ img {
     min-width: 30%;
     max-width: 100%;
     height: 100%;
-max-height: 100%;
+    max-height: 100%;
 }
 
 /* Voeg jouw css hieraan toe */
 
 .intro_text {
     width: 70%;
-    
 }
 
 .container {}
@@ -53,7 +52,6 @@ max-height: 100%;
 }
 
 /*rude site info */
-
 
 .grid_rude {
     height: 600px;
@@ -105,9 +103,6 @@ max-height: 100%;
     background-color: #fff;
 }
 
-
-
-p{
-
+p {
     margin: 2px 0px 2px 10px;
 }
