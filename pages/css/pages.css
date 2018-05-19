@@ -114,20 +114,22 @@ p {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    background-color: hsla(270, 56%, 63%, 1);
+    background-color: white;
     padding: 0px;
 }
 
 .menu ul li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 10px;
+    
     text-decoration: none;
     padding: 5px 10px 5px 10px;
+    border-left: #000 solid 5px;
 }
 
 .menu ul a:hover {
-    background-color: #E2D396;
+    background-color: #2E3133;
+    color: white;
 }
 
 .menu ul a {
@@ -138,7 +140,8 @@ p {
 
 .goup {
     font-size: 28px;
-    position: absolute;
+    position: fixed;
+
     top: 93%;
     left: 95%;
     width: 30px;
@@ -179,6 +182,59 @@ p {
     color: white;
 }
 .color_5 {
-    background-color: #A16CD5;
+    background-color: #4EA515; 
+    color: white;
+}
+
+.color_6{
+    background-color: #2E3133;
+}
+/* btns */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+
+}
+.btnContainer{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.subscribe{
+  
+    width: 336px;
+    height: 37px;
+    background-color: #EC826C; 
+    font-size: 27px;
+    text-align: center;
+}
+
+.login{
+
+    width: 336px;
+    height: 37px;
+    background-color: #4EA515; 
+    font-size: 27px;
+    
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    width: 336px;
+    height: 37px;
+    background-color: #4EA515; 
+    font-size: 27px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
     color: white;
 }
