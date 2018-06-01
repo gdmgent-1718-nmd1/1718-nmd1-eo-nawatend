@@ -398,6 +398,41 @@ p {
     background-color: #CF4332;
 }
 
+.menuwebsite {
+    width: 100%;
+    height: 114px;
+    background: url("../images/Full_bar_bg.png") no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuwebsite a {
+    font-size: 58px;
+    margin: 0px;
+    line-height: 1;
+}
+
+.menuwebsite a:hover {
+    color: #A16CD5;
+}
+
+.items {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoImage {
+    max-width: 18%;
+    align-self: center;
+}
+
+#imagelogo {
+    max-width: 100%;
+    height: auto;
+}
+
 /* textfield / forms */
 
 #textfield {
