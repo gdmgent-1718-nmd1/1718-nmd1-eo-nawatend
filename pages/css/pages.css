@@ -1,5 +1,10 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf");
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: SourceSansPro;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -11,6 +16,11 @@ body {
     padding: 25px;
     background-color: #2E3133;
     min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 img {
@@ -121,7 +131,6 @@ p {
 .menu ul li {
     list-style-type: none;
     display: inline-block;
-    
     text-decoration: none;
     padding: 5px 10px 5px 10px;
     border-left: #000 solid 5px;
@@ -141,64 +150,200 @@ p {
 .goup {
     font-size: 28px;
     position: fixed;
-
     top: 93%;
     left: 95%;
     width: 30px;
     height: 35px;
     background-color: hsla(270, 56%, 63%, 1);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .goup:hover {
     background: #E2D396;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.logo_1 {
+    height: auto;
+    width: 10%;
+}
+
+.logo_2 {
+    height: auto;
+    width: 20%;
+}
+
 .color {
-   
-    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
     width: 35%;
-    font-size: 22px;
-    text-align: center;
-    background-color: #000;
-    margin-top: 5px; 
+    font-size: 24px;
+    margin-top: 5px;
 }
 
 .color_1 {
     background-color: #A16CD5;
     color: white;
 }
+
 .color_2 {
     background-color: #EC826C;
     color: white;
 }
+
 .color_3 {
     background-color: #E2D396;
     color: white;
 }
+
 .color_4 {
-    background-color: #8AE267;
-    color: white;
-}
-.color_5 {
-    background-color: #4EA515; 
+    background-color: #FFDE17;
     color: white;
 }
 
-.color_6{
+.color_5 {
+    background-color: #4EA515;
+    color: white;
+}
+
+.color_6 {
     background-color: #2E3133;
 }
+
+/* Fonts */
+
+.whitebox {
+    border: 2px solid white;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.titel {
+    margin-bottom: 10px;
+}
+
+.font1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 58px;
+}
+
+.font2 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+.font3 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.font4 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.font5 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.font6 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.font7 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+/* icons */
+
+.iconContainer {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.icon {
+    margin-right: 50px;
+}
+
+.icon_1 {
+    height: auto;
+    width: 12%;
+}
+
+.icon_2 {
+    height: auto;
+    width: 12%;
+    transform: rotate(90deg);
+}
+
+.icon_3 {
+    height: auto;
+    width: 12%;
+    transform: rotate(-90deg);
+}
+
+.icon_4 {
+    height: 135px;
+    width: 500px;
+    margin-right: 300px;
+}
+
+.icon_5 {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
 /* btns */
-.button{
+
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-
-
+    width: 365px;
+    height: 51px;
+    font-size: 35px;
+    margin-top: 10px;
 }
-.btnContainer{
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.btnContainer {
     width: 700px;
     height: 500px;
     display: flex;
@@ -206,35 +351,145 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.subscribe{
-  
+
+.subscribe {
     width: 336px;
     height: 37px;
-    background-color: #EC826C; 
+    background-color: #EC826C;
     font-size: 27px;
     text-align: center;
+    font-weight: bold;
 }
 
-.login{
-
+.addcart {
     width: 336px;
-    height: 37px;
-    background-color: #4EA515; 
-    font-size: 27px;
-    
-}
-
-.register{
-    display: flex;
-    align-items: center;
-    width: 336px;
-    height: 37px;
-    background-color: #4EA515; 
-    font-size: 27px;
+    height: 56px;
+    background-color: #EC826C;
+    font-size: 35px;
     text-align: center;
+    font-weight: bold;
 }
 
-a{
-    text-decoration: none;
+.addcart a {
     color: white;
+}
+
+.subscribe a {
+    color: white;
+}
+
+.login {
+    background-color: #4EA515;
+}
+
+.register {
+    background-color: #4EA515;
+}
+
+.facebook {
+    font-size: 20px;
+    text-transform: initial;
+    background-color: #3C66C4;
+}
+
+.googleplus {
+    font-size: 20px;
+    text-transform: initial;
+    background-color: #CF4332;
+}
+
+/* textfield / forms */
+
+#textfield {
+    font-size: 35px;
+    height: 51px;
+    width: 365px;
+    border: none;
+}
+
+.username {
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.user {
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.signinAndRegisterContainer {
+    width: 90%;
+    height: 699px;
+    background: url("../images/Full_bar_bg.png") no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titel_form {
+    text-transform: uppercase;
+    color: #A16CD5;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+#checkoutform .titel_form {
+    color: #EC826C;
+}
+
+.signinContainer {
+    margin-top: 50px;
+}
+
+.registrationContainer {
+    margin-top: 50px;
+}
+
+.verticalLine {
+    border-left: 2px solid lightgrey;
+    height: 500px;
+    margin-top: 50px;
+}
+
+/* Check out Container */
+
+.checkoutContainer {
+    margin-top: 50px;
+    width: 60%;
+    height: 750px;
+    background: url("../images/Full_bar_bg.png") no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customerInfoContainer {
+    margin-top: 50px;
+}
+
+.verticalLine {
+    border-left: 2px solid lightgrey;
+    height: 650px;
+    margin-top: 50px;
+}
+
+.name #textfield {
+    width: 260px;
+}
+
+#textfield_long {
+    width: 530px;
+    font-size: 35px;
+    height: 51px;
+    border: none;
+}
+
+.name {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.countries {
+    height: 51px;
+    width: 260px;
 }
