@@ -39,7 +39,13 @@ img {
     width: 70%;
 }
 
-.container {}
+h3 a {
+    color: hsla(270, 56%, 63%, 1);
+}
+
+h3 a:hover {
+    color: #EC826C;
+}
 
 .grid {
     height: 250px;
@@ -112,7 +118,9 @@ p {
     background-color: #EC826C;
 }
 
-.user li {}
+.user li {
+    margin-bottom: 10px;
+}
 
 .container_user {
     width: 90%;
@@ -431,6 +439,10 @@ p {
 #imagelogo {
     max-width: 100%;
     height: auto;
+}
+
+.purple_spike {
+    width: 100%;
 }
 
 /* textfield / forms */
